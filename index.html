@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - fcc_surveyform</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="main">
+        <div class="topofform">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">A Survey form for freeCodeCamp practice</p>
+        </div>
+        <div class="formBegin">
+            <form id="survey-form">
+                <label for="name" id="name-label">Enter your name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Name" required /><br />
+                <br>
+                <label for="email" id="email-label">Enter your email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email ID" required /><br />
+                <br>
+
+                <label for="number" id="number-label">Enter your age:</label><br>
+                <input type="number" id="number" name="age" placeholder="Age" min="18" max="70" /><br />
+                <br>
+                <label for="dropdown">What is your preferred mode of transport?</label><br>
+                <select id="dropdown" name="dropdown">
+                    <option value="bus">Bus</option>
+                    <option value="train">Train</option>
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="walking">Walking</option>
+                </select><br /><br>
+
+                <p>Would you recommend us to a friend?</p>
+                <input type="radio" id="yes" name="recommend" value="Yes" />
+                <label for="yes">Yes</label><br />
+                <input type="radio" id="no" name="recommend" value="No" />
+                <label for="no">No</label><br />
+                <input type="radio" id="Maybe" name="recommend" value="Maybe" />
+                <label for="Maybe">Maybe</label><br><br>
+
+                <p>How did you get to know about us?</p>
+                <input type="checkbox" id="option1" name="option1" value="friend" />
+                <label for="option1"> From a Friend</label><br />
+                <input type="checkbox" id="option2" name="option2" value="Newspaper" />
+                <label for="option2"> Newspaper</label><br />
+                <input type="checkbox" id="option3" name="option3" value="Social Media" />
+                <label for="option3">Social Media</label><br />
+                <input type="checkbox" id="option4" name="option4" value="Advertisement" />
+                <label for="option4">Advertisement</label><br />
+                <input type="checkbox" id="option5" name="option5" value="Others" />
+                <label for="option5">Others</label><br /><br>
+
+                <label for="comments">Please enter if you have any comments:</label><br>
+                <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Enter comments"></textarea>
+                <br><br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

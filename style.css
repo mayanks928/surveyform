@@ -1,0 +1,38 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    align-items: center;
+    background-color: rgb(148, 148, 233);
+}
+body{
+    font-family:'Oswald',serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+}
+div.formBegin{
+    background-color: rgb(44,43,74);
+    padding: 20px 150px;
+    margin: 20px 0px;
+}
+p,label{
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+::placeholder{
+    font-size: 15px;
+    font-family:'Oswald',serif;
+}
+select{
+    font-family:'Oswald',serif;
+    padding: 5px 20px;
+}
+input{
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+}
